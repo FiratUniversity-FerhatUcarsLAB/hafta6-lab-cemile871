@@ -112,15 +112,15 @@ public class Proje3_RestoranSiparis {
         System.out.print("Ana Yemek (1-4): ");
         int ana = sc.nextInt();
 
-        System.out.println("Başlangıçlar (0-3): 1:Çorba(25) 2:Humus(45) 3:Sigara Böreği(55)");
+        System.out.println("Başlangıçlar (1-3): 1:Çorba(25) 2:Humus(45) 3:Sigara Böreği(55)");
         System.out.print("Başlangıç (1-3): ");
         int bas = sc.nextInt();
 
-        System.out.println("İçecekler (0-4): 1:Kola(15) 2:Ayran(12) 3:Taze Meyve Suyu(35) 4:Limonata(25)");
+        System.out.println("İçecekler (1-4): 1:Kola(15) 2:Ayran(12) 3:Taze Meyve Suyu(35) 4:Limonata(25)");
         System.out.print("İçecek (1-4): ");
         int ice = sc.nextInt();
 
-        System.out.println("Tatlılar (0-3): 1:Künefe(65) 2:Baklava(55) 3:Sütlaç(35)");
+        System.out.println("Tatlılar (1-3): 1:Künefe(65) 2:Baklava(55) 3:Sütlaç(35)");
         System.out.print("Tatlı (1-3): ");
         int tat = sc.nextInt();
 
@@ -186,4 +186,5 @@ public class Proje3_RestoranSiparis {
         sc.close();
     }
 }
+
 

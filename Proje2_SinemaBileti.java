@@ -7,7 +7,7 @@
 
 import java.util.Scanner;
 
-public class SinemaBileti {
+public class Proje2_SinemaBileti {
 
     // hafta sonu mu kontrol etme
     public static boolean isWeekend(int gun){
@@ -147,4 +147,5 @@ public class SinemaBileti {
     }
 
 }
+
 

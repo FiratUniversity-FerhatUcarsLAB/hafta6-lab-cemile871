@@ -7,7 +7,7 @@
 
 
 import java.util.Scanner;
-public class NotSistemi {
+public class Proje1_NotSistemi {
 
     public static double calculateAverage(int vize, int finalNotu, int odev) {
       return (vize * 0.3) + (finalNotu * 0.4) + (odev * 0.3);
@@ -69,4 +69,5 @@ public class NotSistemi {
 
    }
 }
+
 

@@ -9,7 +9,7 @@ import java.util.Scanner;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-public class RestoranSiparis {
+public class Proje3_RestoranSiparis {
 
     // 1. Ana yemek fiyatı
     public static double getMainDishPrice(int secim) {
@@ -186,3 +186,4 @@ public class RestoranSiparis {
         sc.close();
     }
 }
+

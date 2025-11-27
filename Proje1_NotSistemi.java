@@ -1,3 +1,11 @@
+/**
+* Ad Soyad: [Cemile Akay]
+* Numara: [250541099]
+* Proje: [Not sistemi]
+* Tarih: [26.11.2025]
+*/
+
+
 import java.util.Scanner;
 public class NotSistemi {
 
@@ -61,3 +69,4 @@ public class NotSistemi {
 
    }
 }
+

@@ -80,29 +80,64 @@ public class Proje2_SinemaBileti {
 
         double fiyat = calculateFinalPrice(gun, saat, yas, meslek, filmTuru);
 
-        String gunAdi = switch (gun) {
-            case 1 -> "Pazartesi";
-            case 2 -> "Salı";
-            case 3 -> "Çarşamba";
-            case 4 -> "Perşembe";
-            case 5 -> "Cuma";
-            case 6 -> "Cumartesi";
-            case 7 -> "Pazar";
-            default -> "Bilinmiyor";
+        String gunAdi;
+        switch (gun) {
+            case 1:
+                gunAdi = "Pazartesi";
+                break;
+            case 2:
+                gunAdi = "Salı";
+                break;
+            case 3:
+                gunAdi = "Çarşamba";
+                break;
+            case 4:
+                gunAdi = "Perşembe";
+                break;
+            case 5:
+                gunAdi = "Cuma";
+                break;
+            case 6:
+                gunAdi = "Cumartesi";
+                break;
+            case 7:
+                gunAdi = "Pazar";
+                break;
+            default:
+                gunAdi = "Geçersiz Gün";
+                break;
         };
 
-        String meslekAdi = switch (meslek) {
-            case 1 -> "Öğrenci";
-            case 2 -> "Öğretmen";
-            default -> "Diğer";
+        String meslekAdi;
+        switch (meslek) {
+            case 1:
+                meslekAdi = "Öğrenci";
+                break;
+            case 2:
+                meslekAdi = "Öğretmen";
+                break;
+            default:
+                meslekAdi = "Diğer";
+                break;
         };
 
-        String format = switch (filmTuru) {
-            case 1 -> "2D";
-            case 2 -> "3D";
-            case 3 -> "IMAX";
-            case 4 -> "4DX";
-            default -> "Belirsiz";
+        String format;
+        switch (filmTuru) {
+            case 1:
+                format = "2D";
+                break;
+            case 2:
+                format = "3D";
+                break;
+            case 3:
+                format = "IMAX";
+                break;
+            case 4:
+                format = "4DX";
+                break;
+            default:
+                format = "Belirsiz";
+                break;
         };
 
         System.out.println("\n===== BİLET BİLGİSİ =====");
@@ -142,10 +177,8 @@ public class Proje2_SinemaBileti {
         System.out.print("Tür seçiniz: ");
         int filmTuru = input.nextInt();
 
-         // bilgiyi tek seferde yazdır
+        // BÜTÜN BİLGİYİ TEK SEFERDE YAZDIR
         generateTicketInfo(gun, saat, yas, meslek, filmTuru);
     }
 
 }
-
-

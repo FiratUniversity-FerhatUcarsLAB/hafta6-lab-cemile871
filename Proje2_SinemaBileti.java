@@ -1,3 +1,10 @@
+/**
+* Ad Soyad: [Cemile Akay]
+* Numara: [250541099]
+* Proje: [Sinema bileti]
+* Tarih: [26.11.2025]
+*/
+
 import java.util.Scanner;
 
 public class SinemaBileti {
@@ -140,3 +147,4 @@ public class SinemaBileti {
     }
 
 }
+
